@@ -5,3 +5,19 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+
+# seed product
+products = Product.create([
+    {
+        product_name:   'ASUS Zenbook',
+        product_code:   'AS-ZNBK',
+        description:    'This is laptop with tochscreen',
+        price:          18000000
+    },
+    {
+        product_name:   'Keychron K7 Slim',
+        product_code:   'Keychron K7 slim',
+        description:    'This is bluetoth keuboard',
+        price:          1200000
+    }
+])

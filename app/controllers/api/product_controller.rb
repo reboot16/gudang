@@ -5,10 +5,6 @@ module Api
         end
         
         def index
-            render json: {
-                values: 'hello',
-                message: 'success'
-            }, status: 200
         end
         
         def create

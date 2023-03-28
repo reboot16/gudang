@@ -12,10 +12,10 @@
 
 ActiveRecord::Schema[7.0].define(version: 2023_03_22_152324) do
   create_table "products", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
-    t.string "product_name"
-    t.string "product_code"
-    t.string "description"
-    t.integer "price"
+    t.string "product_name", null: false
+    t.string "product_code", null: false
+    t.string "description", null: false
+    t.integer "price", null: false
     t.integer "weight"
     t.string "condition"
     t.datetime "created_at", null: false
